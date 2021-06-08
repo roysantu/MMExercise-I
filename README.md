@@ -15,6 +15,7 @@ Mock data properties can be used to dry run the feature
 ## Installation
 git clone <path>
 npm install
+npm i -g protractor (If notalready installed globally)
 
 ## Usage
 npm run mmtest (Can be run as property Mock=true, any valid URL can be used for mock, defaults to google.com)

@@ -1,0 +1,24 @@
+{
+  "name": "e2e-protractor-cucumber-type",
+  "version": "1.0.0",
+  "description": "selenium-protractor with cucumberJS framework, with mock test",
+  "main": "index.js",
+  "scripts": {
+    "mmtest": "protractor protractor-conf.js"
+  },
+  "author": "Santu Roy",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^7.2.1",
+    "cucumber-html-reporter": "^5.4.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "log4js": "^6.3.0",
+    "properties-reader": "^2.2.0",
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "^8.1.0",
+    "protractor-multiple-cucumber-html-reporter-plugin": "^1.8.1"
+  }
+}

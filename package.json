@@ -4,6 +4,7 @@
   "description": "selenium-protractor with cucumberJS framework, with mock test",
   "main": "index.js",
   "scripts": {
+    "startWebDriver": "webdriver-manager update && webdriver-manager start",
     "mmtest": "protractor protractor-conf.js"
   },
   "author": "Santu Roy",
